@@ -83,20 +83,19 @@ This block displays the address and links to maps showing directions if the lati
 {% elsif online == "true_private" %}
 <p id="where">
   <strong>Where:</strong> This training will take place online.
-  When you register for the event on <a href="">LibCal</a>, you the Zoom link and password will be emailed to you.
+  When you register for the event on <a href="https://nyu.libcal.com/calendar/classes/software-carpentry-5">LibCal</a>, you the Zoom link and password will be emailed to you.
 </p>
 {% endif %}
 
 {% comment %}
 DATE
 
-This block displays the date and links to Google Calendar.
+This block displays the date
 {% endcomment %}
 {% if page.humandate %}
 <p id="when">
   <strong>When:</strong>
   {{page.humandate}}.
-  {% include workshop_calendar.html %}
 </p>
 {% endif %}
 
