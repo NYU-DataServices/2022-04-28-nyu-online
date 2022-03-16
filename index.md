@@ -1,5 +1,5 @@
 ---
-layout: workshop      # DON'T CHANGE THIS
+layout: workshop # DON'T CHANGE THIS
 venue: "New York University"
 address: "online"
 country: "us"
@@ -10,7 +10,7 @@ humandate: "April 28-29, 2022"
 humantime: "10:00 am - 5:00 pm EST"
 startdate: 2022-04-28
 enddate: 2022-04-29
-instructor: ["Alex Provo", "Nick Wolf"]
+instructor: ["Guy Davidson", "Alex Provo", "Nick Wolf"]
 helper: ["TBD", "Patrick Bond"]
 email: ["vicky.rampin@nyu.edu"]
 ---
